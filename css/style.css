@@ -1,0 +1,56 @@
+body, html{
+  height: 100%;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  border: 1px solid white;
+  position: relative;
+}
+
+h1{
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 40px;
+  font-family: Verdana, sans-serif;
+  color: #177b82;
+  text-shadow: 2px 2px 3px rgba(189, 189, 189, 1);
+}
+
+footer{
+  position: absolute;
+  width: 100%;
+  bottom: 10px;
+  text-align: center;
+  color: #177b82;
+  font-family: Verdana, sans-serif;
+}
+
+#barGraph svg{
+  display: block;
+  margin: 0 auto;
+  background-color: rgba(189, 189, 189, 0.1);
+  border-radius: 15px;
+  box-shadow: 0px 0px 10px rgba(189, 189, 189, 1);
+}
+
+.axis{
+  font-size: 13px;
+  font-family: Verdana, sans-serif;
+}
+
+.axis path{
+  fill: none;
+  stroke: #dadada;
+  shape-rendering: crispEdges;
+}
+
+.axis .tick text{
+  fill: grey;
+  font-style: italic;
+}
+
+.axis .tick line{
+  fill: orange;
+}
